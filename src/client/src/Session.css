@@ -1,0 +1,37 @@
+.session-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.text{
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-container>* {
+    width: 100%;
+}
+
+.input-container>label {
+    font-weight: bold;
+}
+
+.send-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: royalblue;
+}

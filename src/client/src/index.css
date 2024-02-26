@@ -1,0 +1,46 @@
+.text-input {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-text {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+.send-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem; 
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.send-button:hover > * {
+  background-color: royalblue;
+}
+
+.send-button:focus {
+  outline: none;
+}
+
+.icon {
+  color: #fff;
+  background-color: dodgerblue;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
